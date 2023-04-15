@@ -48,10 +48,9 @@ YOU CAN USE LIKE IT TOO :d
 	animation: mymove 10s infinite;
 }
 
-div {
-	width: 770.1px;
-	height: 421.2px;
-
+.Logo {
+	margin: auto;
+	padding-top: 150px;
 }
 
 @keyframes mymove {
@@ -88,20 +87,74 @@ div {
 	}
 }
 
-.Logo {
+
+.breve path {
+	fill: #A212A7;
+	-webkit-animation: mymove 6s infinite;
+	animation: mymove 10s infinite;
+}
+
+.breve {
 	margin: 0 auto;
+	display: flex;
+  justify-content: center;
 	padding-top: 150px;
 
 }
 
+
+@keyframes mymove2 {
+	to {
+		color: #A212A7;
+	}
+
+	60% {
+		color: #025373;
+	}
+
+	30% {
+		color: #D8F207;
+	}
+
+	20% {
+		color: #94D904;
+	}
+
+	from {
+		color: #65A602;
+	}
+
+	80% {
+		color: #D8D8D8;
+	}
+
+	50% {
+		color: #0697F2;
+	}
+
+	70% {
+		color: #2B2B2B;
+	}
+}
+
+div {
+	width: 55rem;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/*
 .texto {
 	font-family: "Raleway-Thin.ttf", sans-serif;
-	letter-spacing: 40px;
+	
 	color: #000;
-	font-size: 42pt;
+	font-size: 4rem;
 	-webkit-animation: mymove2 6s infinite;
 	animation: mymove2 10s infinite;
-	text-align: center;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+	padding-top: 6rem;
 
 }
 
@@ -140,12 +193,8 @@ div {
 }
 
 .texto p {
-	padding-top: 480px;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-
-
-}
-
+	display: flex;
+	text-align: center!important;
+	letter-spacing: 4rem;
+  
+}*/
