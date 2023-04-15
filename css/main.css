@@ -1,0 +1,149 @@
+body {
+	background-color: #D8D8D8;
+	-webkit-animation: random 5s infinite;
+	animation: random 5s infinite;
+}
+
+@keyframes random {
+	to {
+		background-color: #A212A7;
+	}
+
+	60% {
+		background-color: #025373;
+	}
+
+	30% {
+		background-color: #D8F207;
+	}
+
+	20% {
+		background-color: #94D904;
+	}
+
+	from {
+		background-color: #65A602;
+	}
+
+	80% {
+		background-color: #D8D8D8;
+	}
+
+	50% {
+		background-color: #0697F2;
+	}
+
+	70% {
+		background-color: #2B2B2B;
+	}
+}
+
+/*
+
+YOU CAN USE LIKE IT TOO :d
+*/
+.Logo path {
+    fill: #A212A7;
+	-webkit-animation: mymove 6s infinite;
+	animation: mymove 10s infinite;
+}
+
+div {
+	width: 770.1px;
+	height: 421.2px;
+
+}
+
+@keyframes mymove {
+	to {
+		fill: #A212A7;
+	}
+
+	60% {
+		fill: #025373;
+	}
+
+	30% {
+		fill: #D8F207;
+	}
+
+	20% {
+		fill: #94D904;
+	}
+
+	from {
+		fill: #65A602;
+	}
+
+	80% {
+		fill: #D8D8D8;
+	}
+
+	50% {
+		fill: #0697F2;
+	}
+
+	70% {
+		fill: #2B2B2B;
+	}
+}
+
+.Logo {
+	margin: auto;
+	width: 30%;
+	padding-top: 150px;
+	
+}
+
+.texto {
+	font-family: "Raleway-Thin.ttf", sans-serif;
+	letter-spacing: 25px;
+	color: #000;
+	font-size: 42pt;
+	-webkit-animation: mymove2 6s infinite;
+	animation: mymove2 10s infinite;
+	
+}
+
+@keyframes mymove2 {
+	to {
+		color: #A212A7;
+	}
+
+	60% {
+		color: #025373;
+	}
+
+	30% {
+		color: #D8F207;
+	}
+
+	20% {
+		color: #94D904;
+	}
+
+	from {
+		color: #65A602;
+	}
+
+	80% {
+		color: #D8D8D8;
+	}
+
+	50% {
+		color: #0697F2;
+	}
+
+	70% {
+		color: #2B2B2B;
+	}
+}
+
+.texto p {
+	margin: 0;
+	padding-top: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
