@@ -1,1 +1,0 @@
-# pitaco-revista.github.io
