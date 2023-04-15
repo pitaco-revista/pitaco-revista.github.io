@@ -97,7 +97,7 @@ YOU CAN USE LIKE IT TOO :d
 .breve {
 	margin: 0 auto;
 	display: flex;
-  justify-content: center;
+	justify-content: center;
 	padding-top: 150px;
 
 }
@@ -140,61 +140,4 @@ YOU CAN USE LIKE IT TOO :d
 div {
 	width: 55rem;
 	display: flex;
-	flex-direction: row-reverse;
 }
-
-/*
-.texto {
-	font-family: "Raleway-Thin.ttf", sans-serif;
-	
-	color: #000;
-	font-size: 4rem;
-	-webkit-animation: mymove2 6s infinite;
-	animation: mymove2 10s infinite;
-	margin: auto;
-	max-width: 100%;
-	height: auto;
-	padding-top: 6rem;
-
-}
-
-@keyframes mymove2 {
-	to {
-		color: #A212A7;
-	}
-
-	60% {
-		color: #025373;
-	}
-
-	30% {
-		color: #D8F207;
-	}
-
-	20% {
-		color: #94D904;
-	}
-
-	from {
-		color: #65A602;
-	}
-
-	80% {
-		color: #D8D8D8;
-	}
-
-	50% {
-		color: #0697F2;
-	}
-
-	70% {
-		color: #2B2B2B;
-	}
-}
-
-.texto p {
-	display: flex;
-	text-align: center!important;
-	letter-spacing: 4rem;
-  
-}*/
